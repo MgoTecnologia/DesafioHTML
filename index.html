@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio HTML</title>
+</head>
+<body>
+    <form>
+        <h1>Cadastro</h1>
+        <div>
+            <label for="nome">Nome Completo:</label>    
+        </div>
+        <div>
+            <input type="text" name="nome" id="nome">
+        </div>
+
+        <div>
+            <label for="endereco">Endereço:</label>        
+        </div>
+        <div>
+            <input type="text" name="endereco" id="endereco">
+        </div>
+
+        <div>
+            <label for="bairro">Bairro:</label>        
+        </div>
+        <div>
+            <input type="text" name="bairro" id="bairro">
+        </div>
+
+        <div>
+            <label for="cidade">Cidade:</label>        
+        </div>
+        <div>
+            <input type="text" name="cidade" id="cidade">
+        </div>
+
+        <div>
+            <label for="estado">Estado:</label>        
+        </div>
+        <div>
+            <input type="text" name="estado" id="estado">
+        </div>
+
+        <div>
+            <label for="cep">CEP:</label>        
+        </div>
+        <div>
+            <input type="text" name="cep" id="cep">
+        </div>
+
+        <div>
+            <label for="telefone">Telefone:</label>        
+        </div>
+        <div>
+            <input type="text" name="telefone" id="telefone">
+        </div>
+        <div>
+            <button type="button" onclick="salvar()">Salvar</button>
+        </div>    
+        <div>
+            <button type="reset" onclick="limpar()">Limpar</button>
+        </div>
+    </form>
+    
+
+    <div id="cadastro">
+        <div>
+            <h1>Cadastro efetuado com sucesso!</h1>
+        </div>
+        <div>
+            <h3>Nome Completo:</h3>
+            <h5 id="exibirNomeCompleto"></h5>
+        </div>
+        <div>
+            <h3>Endereço:</h3>
+            <h5 id="exibirEndereco"></h5>
+        </div>
+        <div>
+            <h3>Bairro:</h3>
+            <h5 id="exibirBairro"></h5>
+        </div>
+        <div>
+            <h3>Cidade:</h3>
+            <h5 id="exibirCidade"></h5>
+        </div>
+        <div>
+            <h3>Estado:</h3>
+            <h5 id="exibirEstado"></h5>
+        </div>
+        <div>
+            <h3>CEP:</h3>
+            <h5 id="exibirCEP"></h5>
+        </div>
+        <div>
+            <h3>Telefone:</h3>
+            <h5 id="exibirTelefone"></h5>
+        </div>        
+    </div>
+</body>
+</html>
+<script src="scripts.js"></script>
